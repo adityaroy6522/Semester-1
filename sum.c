@@ -1,9 +1,6 @@
 #include <stdio.h>
 int main()
 {
-
-
-   
    int num1,num2, sum;
    printf("enter first number");
    scanf("%d", &num1);
