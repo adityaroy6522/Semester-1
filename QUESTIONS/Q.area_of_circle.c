@@ -2,11 +2,10 @@
 int main ()
 {
 
-    int r=5;
-    float A=3.14*r*r;
+    float r=5;
+    float pi=3.1415;
+    float A=pi*r*r;
     printf ("Area of the Circle is %f",A);
-
-
 
     return 0;
 }
