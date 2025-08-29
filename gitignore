@@ -1,5 +1,0 @@
-# Ignore all files without an extension (common for C executables)
-*
-
-# But keep files with extensions (like .c, .h, .md, etc.)
-!*.*

@@ -1,13 +1,15 @@
 #include <stdio.h>
 int main ()
 {
-    float radius;  
-    printf (" ");             
-    scanf ("radius of the circle is %f",&radius);                       //first from float radius it creates a container and scanf ask the user to fill the container
+    float radius,a,pi;
+    pi=3.14;
+    
+    
+    printf ("please enter the radius of the circle ");    
+    scanf ("%f",&radius);                                    //first from float radius it creates a container and scanf ask the user to fill the container
 
-    float pi=3.1415;
-    float a=pi*radius*radius;
-    printf ("area of the circle is %f",a);
+    a=pi*radius*radius;
+    printf ("area of the circle is %f\n",a);
 
     return 0;
 
