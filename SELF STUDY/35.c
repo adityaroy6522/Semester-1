@@ -2,7 +2,7 @@
 int main ()
 {
     int a,b,c;
-    printf ("enter the lenght of side of triange ");
+    printf ("enter the length of side of triange ");
     scanf ("%d%d%d",&a,&b,&c);
 
     if (a+b>c && b+c>a && a+c>b)
@@ -14,5 +14,4 @@ int main ()
         printf ("triangle is not valid ");
     }
     return 0;
-    
 }
