@@ -9,18 +9,17 @@ int main ()
     {
         printf ("%d is the greatest",a);
     }
-    /*if (b>a && b>c && b>d)
+    else if (b>a && b>c && b>d)
     {
         ("%d is the greatest",b);
     }
-    if (c>a && c>b && c>d )
+    else if (c>a && c>b && c>d )
     {
         printf ("%d is the greatest",c);
     }
-    if (d>a && d>b && d>c )
+    else if (d>a && d>b && d>c )
     {
         printf ("%d is the greatest",d);
-    }*/
+    }
     return 0;
-
 }

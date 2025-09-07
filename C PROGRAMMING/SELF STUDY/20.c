@@ -9,7 +9,7 @@ int main ()
         l=y-x;
         printf ("loss is %d",-l);
     }
-    if (y-x==0)
+    else if (y-x==0)
     {
         printf ("no proift and loss");
     }
