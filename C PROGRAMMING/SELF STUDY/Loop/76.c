@@ -1,19 +1,14 @@
-//General formula for AP
-
 #include <stdio.h>
 int main ()
 {
-    int a1,a2,n,d,Tn;
+    int n,Tn,a1,a2,d=-3,i;
     printf ("enter first term ");
     scanf ("%d",&a1);
+
     printf ("enter second term ");
     scanf ("%d",&a2);
-    printf ("enter number of terms you want ");
-    scanf ("%d",&n);
 
-    d=a2-a1;
-
-    for (Tn=a1;Tn>=a1+(n-1)*d;Tn=Tn+d)
+    for (Tn=a1;Tn<=100+(n-1)*d && Tn>0 ;Tn=Tn+d)
     {
         printf ("\n%d",Tn);
     }
