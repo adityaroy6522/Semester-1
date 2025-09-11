@@ -1,0 +1,1 @@
+WAP to print sum of all the even and odd digits of a given number

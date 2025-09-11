@@ -13,7 +13,7 @@ int main ()
 
     d=a2-a1;
 
-    for (Tn=a1;Tn>=a1+(n-1)*d;Tn=Tn+d)
+    for (Tn=a1; Tn>=a1+(n-1)*d; Tn=Tn+d)
     {
         printf ("\n%d",Tn);
     }
