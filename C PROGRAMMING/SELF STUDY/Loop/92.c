@@ -1,16 +1,21 @@
 //Ques: Print the sum of this series :
 //1 - 2 + 3 - 4 + 5 - 6... upto 'n'.
-// M1
-
+// M2
 
 #include <stdio.h>
 int main ()
 {
-    int n,sum;
-    for (n=1;sum=(2n-1)-2n;n++)
+    int n,i,sum;
+    printf ("enter the number of terms ");
+    scanf ("%d",&n);
+    if (n%2==0)
     {
-        printf ("%d",sum);
+        sum=-n/2;
     }
-    return 0;
-}
-
+    else 
+    {
+        sum=-n/2+n;
+    }
+    printf ("%d",sum);
+   return 0;
+}    

@@ -3,9 +3,9 @@
 // M1
 
 #include <stdio.h>
-int main () 
+int main ()
 {
-    int sum=0,n,i;
+    int n,i,sum=0;
     printf ("enter number of term ");
     scanf ("%d",&n);
 
@@ -15,7 +15,7 @@ int main ()
         {
             sum=sum+i;
         }
-        else 
+        else
         {
             sum=sum-i;
         }
