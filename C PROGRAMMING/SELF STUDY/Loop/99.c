@@ -1,4 +1,4 @@
-//print the factorials of tirst n numbers
+//print the factorials of first n numbers
 
 #include <stdio.h>
 int main ()
