@@ -35,5 +35,4 @@ int main ()
         printf ("sunday");
     }
     return 0;
-
 }
