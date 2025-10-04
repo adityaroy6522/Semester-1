@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main ()
 {
-    int a;
-    printf ("plz enter number of rows ");
-    scanf ("%d",&a);
-    for (int i=1;i<=a;i++)
+    int n;
+    printf ("enter number of rows ");
+    scanf ("%d",&n);
+    for (int i=1;i<=n;i++)
     {
         for (int j=1;j<=i;j++)
         {
-            printf ("* ");
+            printf ("%d ",j);
         }
         printf ("\n");
     }
