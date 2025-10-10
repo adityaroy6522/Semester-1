@@ -16,7 +16,7 @@ int main()
 
     // Initialize first and second largest
     int largest = arr[0];
-    int second_largest = -2147483648; // minimum value of int
+    int second_largest = 0; // minimum value of int
 
     for (i = 1; i < n; i++) 
     {
@@ -30,10 +30,11 @@ int main()
         }
     }
 
-    if (second_largest == -2147483648) 
+    if (second_largest == 0) 
     {
         printf("There is no second largest element.\n");
-    } else 
+    } 
+    else 
     {
         printf("The second largest element is: %d\n", second_largest);
     }
