@@ -1,5 +1,3 @@
-//https://eros-sun.xyz/rehabilitation-classroom-chapter-22/
-
 #include <stdio.h>
 int main ()
 {
