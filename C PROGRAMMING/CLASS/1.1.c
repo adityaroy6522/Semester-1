@@ -11,8 +11,6 @@ int main ()
     printf ("I am learing programing Language");
 
 
-
-
     printf ("\ni love to code");
     printf ("\n");
     printf ("\n");

@@ -5,7 +5,7 @@ int main()
     int m, n, p, q;
     int i, j, k;
 
-    // Input order of Matrix A
+   
     printf("Enter number of rows and columns for Matrix A: ");
     scanf("%d %d", &m, &n);
 
@@ -20,7 +20,7 @@ int main()
         }
     }
 
-    // Input order of Matrix B
+    
     printf("Enter number of rows and columns for Matrix B: ");
     scanf("%d %d", &p, &q);
 
@@ -35,7 +35,7 @@ int main()
         }
     }
 
-    // Check compatibility for multiplication
+    
     if (n != p) 
     {
         printf("\nMatrix multiplication NOT possible!");
@@ -43,9 +43,7 @@ int main()
         return 0;
     }
 
-    int C[m][q]; // Resultant matrix
-
-    // Initialize resultant matrix with 0
+    int C[m][q]; 
     for (i = 0; i < m; i++) 
     {
         for (j = 0; j < q; j++) 
@@ -54,7 +52,7 @@ int main()
         }
     }
 
-    // Matrix multiplication
+   
     for (i = 0; i < m; i++) 
     {
         for (j = 0; j < q; j++) 
@@ -66,7 +64,7 @@ int main()
         }
     }
 
-    // Print Matrix A
+    
     printf("\nMatrix A:\n");
     for (i = 0; i < m; i++) 
     {
@@ -77,7 +75,7 @@ int main()
         printf("\n");
     }
 
-    // Print Matrix B
+    
     printf("\nMatrix B:\n");
     for (i = 0; i < p; i++) 
     {
@@ -88,7 +86,7 @@ int main()
         printf("\n");
     }
 
-    // Print Resultant Matrix C
+    
     printf("\nResultant Matrix C (A x B):\n");
     for (i = 0; i < m; i++) 
     {

@@ -20,6 +20,6 @@ int main()
             printf("%d ", num);                                // print number with a space
             num = num * (i - j) / (j + 1);                               // formula for nCr
         }
-        printf("\n"); // move to
+        printf("\n"); 
     }
 }   

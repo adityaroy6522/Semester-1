@@ -14,9 +14,9 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    // Initialize first and second largest
+    
     int largest = arr[0];
-    int second_largest = 0; // minimum value of int
+    int second_largest = 0; 
 
     for (i = 1; i < n; i++) 
     {

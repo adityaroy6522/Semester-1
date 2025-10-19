@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 void counter() {
-    static int count = 0; // static local variable
-    count++;              // increments every time function is called
+    static int count = 0; 
+    count++;             
     printf("Count = %d\n", count);
 }
 
 int main() {
-    counter(); // First call
-    counter(); // Second call
-    counter(); // Third call
+    counter(); 
+    counter(); 
+    counter(); 
     return 0;
 }
