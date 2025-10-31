@@ -1,18 +1,22 @@
-// Perform pointer arithmetic (increment and decrement) on pointers of different data
-// types. Observe how the memory addresses change and the effects on data
-// access.
-
 #include <stdio.h>
-int main ()
+
+int main() 
 {
-    int n;
-    scanf ("%d",&n);
-    for (int i=0;i<=n;i++)
-    {
-        int a=1;
-        a++;
-        printf ("%p\n",&a);
-    }
+    int i_var = 10;
+    char c_var = 'Z';
+    
+    int *i_ptr = &i_var;
+    char *c_ptr = &c_var;
+
+    printf("Int Start: %p\n", i_ptr);
+    i_ptr++;
+    printf("Int After ++: %p\n", i_ptr);
+    i_ptr--;
+    
+    printf("Char Start: %p\n", c_ptr);
+    c_ptr++;
+    printf("Char After ++: %p\n", c_ptr);
+    c_ptr--;
 
     return 0;
 }
