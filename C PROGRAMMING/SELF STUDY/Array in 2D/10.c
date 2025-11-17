@@ -13,10 +13,10 @@ int main ()
     {
         for (int j=0;j<n;j++)
         {
-            printf ("arr[%d][%d] ",i,j);
             scanf ("%d",&arr[i][j]);
         }
     }
+    int maxsum=0,maxrow=0;
     for (int i=0;i<m;i++)
     {
         int sum=0;
@@ -25,7 +25,13 @@ int main ()
             sum=sum+arr[i][j];
         }
         printf ("sum of row %d is %d\n",i+1,sum);
-    
+        if (sum>maxsum)
+        {
+            maxsum=sum;
+            maxrow=i+1;
+        }
     }
+    printf ("max sum = %d\n",maxsum);
+    printf ("row having the highest sum = %d",maxrow);
     return 0;
 }
