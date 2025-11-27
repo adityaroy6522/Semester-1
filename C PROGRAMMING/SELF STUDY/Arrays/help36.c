@@ -1,9 +1,10 @@
 //Ques: Find the unique number in a given Array where all the elements are being repeated twice with one value being unique.
 
 #include <stdio.h>
+#include <stdbool.h>
 int main ()
 {
-    int n,check=0;
+    int n;
     printf ("enter the size of array ");
     scanf ("%d",&n);
     int arr[n];
@@ -15,20 +16,20 @@ int main ()
     printf ("non deuplicate number : ");
     for (int i=0;i<n;i++)
     {
+        bool flag = false;
+
         for (int j=i+1;j<n;j++)
         {
             if (arr[i]==arr[j])
             {
-                printf ("%d ",arr[i]);
-                check=1;
-                break;
+                flag = true;
             }
         }
+        if (flag == false)
+        {
+            printf ("%d",arr[i]);
+            break;
+        }
     }
-    if (check == 0)
-    {
-        printf ("none");
-    }
-
     return 0;
 } 

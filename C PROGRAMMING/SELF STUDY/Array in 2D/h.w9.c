@@ -18,11 +18,11 @@ int main ()
     scanf ("%d",&l2);
     
     int arr[m][n];
+    printf ("enter all element ");
     for (int i=0;i<m;i++)
     {
         for (int j=0;j<n;j++)
         {
-            printf ("arr[%d][%d] ",i,j);
             scanf ("%d",&arr[i][j]);
         }
     }
